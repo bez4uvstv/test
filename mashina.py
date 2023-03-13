@@ -29,5 +29,6 @@ def main():
     url = 'https://www.mashina.kg/search/jaguar/?currency=2&price_from=&price_to='
     html = get_html(url)
     get_data(html)
+    print(get_data)
 
 main()
